@@ -1,0 +1,35 @@
+{
+  "name": "infrashield-cyber-dashboard",
+  "version": "1.0.0",
+  "description": "Cybersecurity monitoring dashboard for nuclear infrastructure - Vue.js frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5",
+    "pinia": "^2.1.7",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "vite": "^5.0.10"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "vue",
+    "cybersecurity",
+    "dashboard",
+    "infrashield",
+    "nuclear",
+    "monitoring"
+  ],
+  "author": "InfraShield Security",
+  "license": "MIT"
+}
