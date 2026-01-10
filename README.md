@@ -2,7 +2,7 @@
 
 **Cybersecurity Operations Center Dashboard**
 
-A full-stack security operations center (SOC) dashboard built with Laravel 11 and Vue.js 3. Shield provides real-time monitoring of systems, incidents, alerts, and threats for critical infrastructure environments.
+A full-stack security operations center (SOC) dashboard built with PhP Laravel 11 and Vue.js 3. Shield provides real-time monitoring of systems, incidents, alerts, and threats for critical infrastructure environments.
 
 ![Dashboard - Critical Status](screenshots/dashboard-critical.png)
 
