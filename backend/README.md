@@ -5,7 +5,7 @@ Laravel 11 PHP Backend API for the InfraShield Cybersecurity Monitoring Dashboar
 ## Setup Instructions
 
 ### Step 1: Download and place backend folder
-Download the `backend` folder and place it in the same directory as the frontend.
+Download the `backend` folder and place it in the same directory as the frontend or download the main project.
 ```bash
 cd backend
 ```
