@@ -126,31 +126,55 @@ npm run dev
 - **URL:** http://localhost:5173
 - **Login:** `operator@shield.io` / `demo123`
 
+
 ## API Endpoints
 
+All routes are defined in `backend/routes/api.php`
+
 ### Authentication
+`backend/app/Http/Controllers/AuthController.php`
+
 - `POST /api/auth/login` - Login
 - `POST /api/auth/logout` - Logout (requires auth)
 - `GET /api/auth/me` - Get current user (requires auth)
 
 ### Dashboard
+`backend/app/Http/Controllers/DashboardController.php`
+
 - `GET /api/dashboard/stats` - Get dashboard statistics
 
 ### Incidents
+`backend/app/Http/Controllers/IncidentController.php`
+
 - `GET /api/incidents` - List incidents
 - `POST /api/incidents` - Create incident
 - `PATCH /api/incidents/{id}` - Update incident
 - `DELETE /api/incidents/{id}` - Delete incident
 
 ### Alerts
+`backend/app/Http/Controllers/AlertController.php`
+
 - `GET /api/alerts` - List alerts
 - `DELETE /api/alerts/{id}` - Dismiss alert
 
 ### Systems
+`backend/app/Http/Controllers/SystemController.php`
+
 - `GET /api/systems` - List systems
 - `GET /api/systems/{id}` - Get system details
 
+### Threats
+`backend/app/Http/Controllers/ThreatController.php`
+
+- `GET /api/threats` - List threats
+- `GET /api/threats/{id}` - Get threat details
+- `POST /api/threats/{id}/acknowledge` - Acknowledge threat
+- `POST /api/threats/{id}/resolve` - Resolve threat
+- `DELETE /api/threats/{id}` - Delete threat
+
 ### Simulation
+`backend/app/Http/Controllers/SimulationController.php`
+
 - `POST /api/simulate/random` - Generate random event
 - `POST /api/simulate/threat` - Generate threat
 - `POST /api/simulate/alert` - Generate alert
