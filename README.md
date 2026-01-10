@@ -58,30 +58,6 @@ A full-stack security operations center (SOC) dashboard built with PhP Laravel 1
 - Node.js 18+
 - npm
 
-### Backend Setup
-
-```bash
-cd backend
-composer install
-cp .env.example .env
-php artisan key:generate
-touch database/database.sqlite
-php artisan migrate:fresh --seed
-php artisan serve --port=8000
-```
-
-### Frontend Setup
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-### Access
-
-- **URL:** http://localhost:5173
-- **Login:** `operator@shield.io` / `demo123`
 
 ## Project Structure
 
@@ -122,6 +98,33 @@ shield/
     │       └── index.js
     └── index.html
 ```
+
+
+
+### Backend Setup
+
+```bash
+cd backend
+composer install
+cp .env.example .env
+php artisan key:generate
+touch database/database.sqlite
+php artisan migrate:fresh --seed
+php artisan serve --port=8000
+```
+
+### Frontend Setup
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+### Access
+
+- **URL:** http://localhost:5173
+- **Login:** `operator@shield.io` / `demo123`
 
 ## API Endpoints
 
