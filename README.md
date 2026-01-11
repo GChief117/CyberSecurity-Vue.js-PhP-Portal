@@ -25,6 +25,10 @@ This repository showcases, if of interest, running applicaiton in local environm
 - **Data Simulation** - Built-in stream simulation for demo/testing purposes
 - **Authentication** - Secure login with Laravel Sanctum token-based auth
 
+- Disclaimer: to create spereate github repositories to host on Railway:
+    - Frontend Hosted on Railway: https://github.com/GChief117/shield-frontend
+    - Backend Hosted on Railway: https://github.com/GChief117/shield-backend
+
 ## Screenshots
 
 ### Login
@@ -200,12 +204,7 @@ The dashboard status automatically updates based on open incidents:
 | 1-4 | WARNING (yellow) |
 | 5+ | CRITICAL (red) |
 
-Status can also be manually overridden by clicking the status badge.
-
-Disclaimer: to create spereate github repositories to host on Railway.
-
-Frontend Hosted on Railway: https://github.com/GChief117/shield-frontend
-Backend Hosted on Railway: https://github.com/GChief117/shield-backend
+Status can also be manually overridden by clicking the status dropdown.
 
 ## License
 
