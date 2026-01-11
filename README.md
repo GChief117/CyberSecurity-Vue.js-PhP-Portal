@@ -4,6 +4,13 @@
 
 A full-stack cybersecity portal built with Vue.js 3 and PhP Laravel 11. The followiing tool presents demo simulation of systems, incidents, alerts, and threats for critical infrastructure environments, randomly generated in a given time period, where monitoring is selected in intervals of 1-3 seconds. 
 
+
+If want to see the live web app, hosted on Railway:
+
+https://shield-frontend-production.up.railway.app/shield-frontend/
+
+Press Load Demo Credentials and feel free to explore.
+
 ![Dashboard - Critical Status](screenshots/dashboard-critical.png)
 
 ## Features
