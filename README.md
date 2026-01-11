@@ -9,7 +9,9 @@ If want to see the live web app, hosted on Railway:
 
 https://shield-frontend-production.up.railway.app/shield-frontend/
 
-Press Load Demo Credentials and feel free to explore.
+To interface with the live working web app, press <u>Load Demo Credentials</u> and feel free to explore.
+
+This repository showcases, if of interest, running applicaiton in local environment.:
 
 ![Dashboard - Critical Status](screenshots/dashboard-critical.png)
 
@@ -199,6 +201,11 @@ The dashboard status automatically updates based on open incidents:
 | 5+ | CRITICAL (red) |
 
 Status can also be manually overridden by clicking the status badge.
+
+Disclaimer: to create spereate github repositories to host on Railway.
+
+Frontend Hosted on Railway: https://github.com/GChief117/shield-frontend
+Backend Hosted on Railway: https://github.com/GChief117/shield-backend
 
 ## License
 
